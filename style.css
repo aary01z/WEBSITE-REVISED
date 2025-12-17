@@ -2318,3 +2318,12 @@ body {
 /* ===================================== */
 /* ⭐ ABOUT SECTION ENDS*/
 /* ===================================== */
+
+/* 🔥 DISABLE PRELOADER COMPLETELY */
+.preloader {
+  display: none !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
