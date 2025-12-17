@@ -1,0 +1,19 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const logoTrigger = document.getElementById("top-nav-icon-zoom");
+  const overlay = document.getElementById("logoZoomOverlay");
+
+  // Show overlay when logo is clicked
+  logoTrigger.addEventListener("click", function (e) {
+    e.preventDefault();
+    overlay.style.display = "flex";
+  });
+
+  // Hide overlay when clicking anywhere outside
+  overlay.addEventListener("click", function () {
+    overlay.style.display = "none";
+  });
+
+});
+</script>
